@@ -5,3 +5,6 @@ const myVariable = 'myVariable from myModule.js';
 function myFunction(){
   console.log('myFunction from myModule.js')
 }
+
+// Export(내보내기)
+export { myVariable, myFunction };
