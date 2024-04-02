@@ -8,3 +8,12 @@ function greet(name) {
 
 greet("호녕");
 greet("변호녕");
+
+// * 2개의 매개변수
+// 두 수를 더하는 함수 정의
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(1, 2)); // 3
+console.log(add(3, 4)); // 7
