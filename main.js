@@ -1,7 +1,10 @@
-// 무기명 함수 선언
-const anonymous = function() {
-    console.log('무기명 함수');
-};
+// 매개변수(parameter) 작성 점검
 
-// 무기명 함수 호출
-anonymous();
+// * 1개의 매개변수
+// 이름별 인사말을 출력하는 함수 정의
+function greet(name) {
+  console.log(`안녕하세요, ${name}님!`);
+}
+
+greet("호녕");
+greet("변호녕");
