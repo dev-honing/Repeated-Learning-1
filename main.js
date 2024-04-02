@@ -1,7 +1,7 @@
-// * 1-1. CJS 방식의 모듈 불러오기(require)
-const exportFunction = require("./app.js"); // NPM 패키지를 가져오는 작성법과 비슷한 모습
+// 기명함수 선언
+function namedFunction() {
+  console.log("기명 함수");
+}
 
-// * 1-2. ESM 방식의 모듈 불러오기(import)
-// import { exportFunction } from "./app.js";
-
-exportFunction();
+// 기명함수 호출
+namedFunction();
